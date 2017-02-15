@@ -24,6 +24,6 @@
 - Overfitting, Saturation and Dropout
 
 ### Week - 4
-- Going Deeper with Convolutions [Christian Szegedy, Wei Liu, Yangqing Jia, Andrew Rabinvich]
+- Going Deeper with Convolutions [Christian Szegedy, Wei Liu, Andrew Rabinvich]
 - Deep Residual Learning for Image Recognition [Kaiming He, Xiangyu Zhang, Jian Sun]
-
+- Aggregated Residual Transformations for Deep Neural Networks [Saining Xie, Kaiming He]
