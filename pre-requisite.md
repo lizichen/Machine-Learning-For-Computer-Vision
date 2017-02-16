@@ -1,6 +1,6 @@
 # List of Prerequisites [updating]
 
-## Math Stuff
+### Math Stuff
 - Linear Algebra
 - Matrix
 - Calculus
@@ -8,52 +8,50 @@
 - https://www.khanacademy.org/math
 - http://datascience.ibm.com/blog/the-mathematics-of-machine-learning/
 
-## Torch
+### Torch
 - Install Torch on AWS EC2 Instance or Ubuntu 16.04 LTS
     * Installation Tutorial: http://torch.ch/docs/getting-started.html
       
       [Optional] Install Git  
       ```sh
-      $ sudo apt-get update
-      $ sudo apt-get install git
+      $ sudo apt-get update  
+      $ sudo apt-get install git  
       ```
       Run commands one by one in terminal: 
       ```sh
-      $ git clone https://github.com/torch/distro.git ~/torch --recursive
-      $ cd ~/torch; bash install-deps;
-      $ ./install.sh
+      $ git clone https://github.com/torch/distro.git ~/torch --recursive  
+      $ cd ~/torch; bash install-deps;  
+      $ ./install.sh  
       ```
       On Linux with bash:
       ```sh
-      $ source ~/.bashrc
+      $ source ~/.bashrc  
       ```
       Install image and torchnet packages:
       ```sh
-      $ luarocks install image
-      $ luarocks install torchnet
+      $ luarocks install image  
+      $ luarocks install torchnet  
       ```
 
-## Anaconda
-- Install
-
+### Anaconda
+- Install  
 - Package Management
 
-## Tensorflow
+### Tensorflow
 - Install
 
-## Numpy Stack in Python
-- ## Numpy 
+### Caffe
 
-- ## Pandas
+### Numpy Stack in Python
+- ##### Numpy   
+- ##### Pandas  
+- ##### Matplotlib  
+- ##### Scipy  
 
-- ## Matplotlib
-
-- ## Scipy
-
-## Sci-kit Learn
+### Sci-kit Learn
 - [Youtube] Data School - Machine Learning in Python with Scikit-Learn
   
-## Knowledgebase:
+### Knowledgebase:
 - Linear Regression
 - R-Squared
 - Multiple Linear Regression and Polynomial Regression
@@ -71,9 +69,17 @@
 - Supervised vs Unsupervised
 - Random Forest
 - KNN (K-Nearest-Neighbors)
+- Stochastic Gradient Descent (SGD)  
+- Types of Data set:
+  + Training phase: Use training dataset to train model. Training Dataset has pairs of labeled input data and expected labeled output data.
+  + Validation phase: Use validation dataset to tune parameters of a classifier, to find the best weights and bias to determine a stopping point for the back-propagation process.
+  + Test dataset: only used to access the trained model, to get the error rate.
 
-## Online Resources:
+
+
+### Online Resources:
 - Classification Dataset Results: http://rodrigob.github.io/are_we_there_yet/build/classification_datasets_results.html#4d4e495354 
+- Popular Public Datasets for AI: https://medium.com/startup-grind/fueling-the-ai-gold-rush-7ae438505bc2#.s0y36g3m5
 - Install NVidia GTX 1080 GPU on Ubuntu 16.04
     1. On BIOS, disable 'Secured Boot State'. (This step is optional, Ubuntu will help to disable it in later steps)
     2. In Ubuntu 16.04 LTS, download CUDA 8.0 (latest as of Jan 2016) and install:
