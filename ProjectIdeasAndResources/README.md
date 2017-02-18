@@ -1,5 +1,5 @@
 ##**Project Ideas for** **Computer Vision and Deep Learning**   
-####Classification   
+###Classification   
 **1. Low signal-noise recognition.**     
 Input: Train SVHN/CIFAR-10 with AWGN, Shot noise of different levels.     
 Output: Class     
@@ -26,7 +26,7 @@ Difficulty: Hard
 **6. Signature verification**      
 [http://www.iapr-tc11.org/mediawiki/index.php/ICDAR_2011_Signature_Verification_Competition_(SigComp2011)](http://www.iapr-tc11.org/mediawiki/index.php/ICDAR_2011_Signature_Verification_Competition_(SigComp2011))         
 Difficulty: Medium/Hard   
-####Detection      
+###Detection      
 **7. Satellite imagery**      
 Input: Satellite image      
 Output: label map of roads/vegetation etc.         
@@ -56,7 +56,7 @@ Refs: [http://homepages.inf.ed.ac.uk/rbf/DERMOFIT/](http://homepages.inf.ed.ac.u
 [http://homepages.inf.ed.ac.uk/rbf/DERMOFIT/datasets.htm](http://homepages.inf.ed.ac.uk/rbf/DERMOFIT/datasets.htm)   
 [Google for more]   
 Difficulty: medium/hard   
-####Image + Text   
+###Image + Text   
 **12. Image captioning**   
 Input: Image   
 Output: short sentence describing scene   
@@ -93,7 +93,7 @@ Papers to implement:
     * Jacob Devlin, Hao Cheng, Hao Fang, Saurabh Gupta, Li Deng, Xiaodong He, Geoffrey Zweig, Margaret Mitchell, Language Models for Image Captioning: The Quirks and What Works, arXiv:1505.01809 [[Paper](http://arxiv.org/pdf/1505.01809.pdf)]   
 Difficulty: hard  
 
-####Image processing   
+###Image processing   
 
 **13. Neural style transfer**   
 Input: photo   
@@ -129,14 +129,14 @@ Difficulty: Medium
 Generative model of images   
 Ref: [https://arxiv.org/abs/1511.06434](https://arxiv.org/abs/1511.06434)   
 Difficulty: Medium/Hard   
-####Video   
+###Video   
 **20. Sign language interpretation**   
 Input: Image of hand sign   
 Output: word   
 Refs:http://vlm1.uta.edu/~athitsos/asl_lexicon/   
 [http://csr.bu.edu/asl/asllvd/annotate/index-cvpr4hb08-dataset.html](http://csr.bu.edu/asl/asllvd/annotate/index-cvpr4hb08-dataset.html)   
 Difficulty: Medium/hard   
-####Random   
+###Random   
 **21. Playing Go**   
 Input: image of Go board   
 Output: prediction of next human move   
