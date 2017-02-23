@@ -1,10 +1,8 @@
 # Machine Learning for Computer Vision
 
 #### Pre-requisite:
-- Linear Algebra
-- Matrix
-- Calculus
-- Statistics
+- pre-requisite.md
+- tools-frameworks.md
 
 ### Week - 1
 - Back Propagation
