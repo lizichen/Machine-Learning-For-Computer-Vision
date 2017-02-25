@@ -8,6 +8,17 @@
 - https://www.khanacademy.org/math
 - http://datascience.ibm.com/blog/the-mathematics-of-machine-learning/
 
+### Textbook
+- The Elements of Statistical Learning - (Hastie, Tibshirani, and Friedman)
+  + Main textbook for L1 and L2 regularization, trees, bagging, random forests, and boosting.
+- Understanding Machine Learning: From Theory to Algorithms - (Shalev-Shwartz and Ben-David)
+  + primary reference for kernel methods and multiclass classification. 
+- An Introduction to Statistical Learning (James, Witten, Hastie, and Tibshirani)
+- Pattern Recognition and Machine Learning (Christopher Bishop)  
+  + Primary reference for probabilistic methods, including bayesian regression, latent variable models, and the EM algorithm.
+- Bayesian Reasoning and Machine Learning (David Barber)
+  + Resource for topics in probabilistic modeling, and a possible substitute for the Bishop book.
+
 ### Outstanding Knowledge Base:
 - Linear Regression
 - R-Squared
@@ -73,6 +84,7 @@
   + **Test dataset**: only used to access the trained model, to get the error rate.
 - SVM (Support Vector Machine)
 - Decision Tree
+- Learning Rate
 
 
 
@@ -80,6 +92,14 @@
 - Classification Dataset Results: http://rodrigob.github.io/are_we_there_yet/build/classification_datasets_results.html#4d4e495354 
 - Popular Public Datasets for AI: https://medium.com/startup-grind/fueling-the-ai-gold-rush-7ae438505bc2#.s0y36g3m5
 - Standford CS229 Machine Learning Course Materials: http://cs229.stanford.edu/materials.html and 2016 Final Projects: http://cs229.stanford.edu/projects2016.html
+
+###OTHER TUTORIALS AND REFERENCES:
+- Carlos Fernandez-Granda's lecture notes provide a comprehensive review of the prerequisite material in linear algebra, probability, statistics, and optimization.
+- Brian Dalessandro's iPython notebooks from DS-GA-1001: Intro to Data Science
+- The Matrix Cookbook has lots of facts and identities about matrices and certain probability distributions.
+- Stanford CS229: "Review of Probability Theory"
+- Stanford CS229: "Linear Algebra Review and Reference"
+- Math for Machine Learning by Hal Daumé III
 
 
 [how-to-choose-actFunc]: http://papers.nips.cc/paper/874-how-to-choose-an-activation-function.pdf

@@ -1,7 +1,10 @@
 ### Note for 
 ##*Deep Residual Learning For Image Recognition*
 
-https://github.com/KaimingHe/deep-residual-networks
+https://github.com/KaimingHe/deep-residual-networks  
+Tutorials:
+- http://kaiminghe.com/icml16tutorial/index.html
+- http://icml.cc/2016/?page_id=97
 
 ### Conclusions and Takeaways:
 - Empirical evidence shows that residual networks are easier to optimize, and can gain accuracy from considerably increased depth.
