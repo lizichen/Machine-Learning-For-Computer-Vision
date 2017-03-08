@@ -85,6 +85,7 @@
 - SVM (Support Vector Machine)
 - Decision Tree
 - Learning Rate
+- [Restricted Boltzmann Machines][rbm]
 
 
 
@@ -100,6 +101,11 @@
 - Stanford CS229: "Review of Probability Theory"
 - Stanford CS229: "Linear Algebra Review and Reference"
 - Math for Machine Learning by Hal Daumé III
+- Deep Learning Courses List: [http://machinelearningmastery.com/deep-learning-courses/][deeplearningcourselist] 
+- Code tutorials: [http://deeplearning.net/reading-list/tutorials/][codetutorial]
 
 
 [how-to-choose-actFunc]: http://papers.nips.cc/paper/874-how-to-choose-an-activation-function.pdf
+[deeplearningcourselist]:http://machinelearningmastery.com/deep-learning-courses/ 
+[codetutorial]:http://deeplearning.net/reading-list/tutorials/
+[rbm]:http://deeplearning.net/tutorial/rbm.html#rbm 
