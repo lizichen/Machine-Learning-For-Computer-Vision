@@ -86,6 +86,7 @@
 - Decision Tree
 - Learning Rate
 - [Restricted Boltzmann Machines][rbm]
+- Markov Chain
 
 
 
