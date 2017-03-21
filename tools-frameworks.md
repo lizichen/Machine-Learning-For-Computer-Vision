@@ -1,5 +1,12 @@
 # ML Frameworks Installation Walk-Thru
 
+### Machine Learning Framework Components:
+1. Tensor Object张量对象
+2. Operations on the Tensor Object 对该张量对象进行的各种运算
+3. Computation Graph and Optimizations 计算图和优化
+4. Auto-differentiation Tool/Function 自动微分工具
+5. BLAS / cuBLAS and cuDNN extensions 扩展组件
+
 ### Torch
 - Install Torch on AWS EC2 Instance or Ubuntu 16.04 LTS
     * Installation Tutorial: http://torch.ch/docs/getting-started.html
@@ -25,6 +32,8 @@
       $ luarocks install torchnet  
       ```
 
+### PyTorch
+
 ### Anaconda
 - Install  
 - Package Management
@@ -42,6 +51,13 @@
 
 ### Sci-kit Learn
 - [Youtube] Data School - Machine Learning in Python with Scikit-Learn
+
+### Data Processing Frameworks 数据处理框架：
+- Map / Reduce + Hadoop——分布式存储和处理系统
+- M / R——处理大量数据的范式
+- Pig，Hive，Cascalog——在Map / Reduce 上的框架
+- Spark——数据处理和训练的全栈解决方案（full stack solution）
+- Google Cloud Dataflow
 
 ### GPUs and Cloud Servers
 - Install **NVidia GTX 1080 GPU** on *Ubuntu 16.04*
