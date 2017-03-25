@@ -117,7 +117,7 @@
 - Code tutorials: [http://deeplearning.net/reading-list/tutorials/][codetutorial]
 - 从零开始掌握Python机器学习：十四步教程: [https://zhuanlan.zhihu.com/p/25761248][python14steps]
 - Google ML Presentation "Nail Your Next ML Gig" - Natalia Ponomareva
-
+- 谷歌微软等科技巨头数据科学岗位面试题（108道）- http://mp.weixin.qq.com/s/JoSgGHa8-ara2bz2L9ppTw 
 
 [python14steps]: https://zhuanlan.zhihu.com/p/25761248
 [how-to-choose-actFunc]: http://papers.nips.cc/paper/874-how-to-choose-an-activation-function.pdf

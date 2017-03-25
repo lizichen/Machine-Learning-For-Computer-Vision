@@ -35,6 +35,19 @@ N/A
 - Rapid Object Detection using a Boosted Cascade of Simple Features [Paul Viola, Michael Jones] [[Link]][viola]
 - Real-Time Continuous Pose Recovery of Human Hands Using Convolutional Networks [[NYU Hand Pose Dataset]][NYU-Hand]
 
+### Week - 8
+- Hand Photo Data Collection
+
+### Week - 9
+- Generative Adversarial Nets (GAN) https://arxiv.org/pdf/1406.2661v1.pdf 
+- Deep Generative Image Models using a Laplacian Pyramid of Adversarial Networks. Emily L. Denton et. al. Nips 2015. https://arxiv.org/abs/1506.05751 
+
+### Week - 10 [Variational Auto Encoders]
+- Tutorial on Variational Autoencoders(VAEs), Carl Doersch. August, 2016. https://arxiv.org/abs/1606.05908
+    + Relevance: sampling from distributions inside deep networks, and can be trained with stochastic gradient descent. VAEs have already shown promise in generating many kinds of complicated data, including handwritten digits, faces, house numbers, CIFAR images, physical models of scenes, segmentation, and predicting the future from static images.
+- "Variational Convolutional Networks for Human-Centric Annotations," 13th Asian Conference on Computer Vision, 2016. Tsung-Wei Ke, Che-Wei Lin, Tyng-Luh Liu and Davi Geiger, 
+    + Relevance: Use of VAEs to annotate automatically images.
+
 
 [pre]:https://github.com/lizichen/Machine-Learning-For-Computer-Vision/blob/master/pre-requisite.md
 [framework]:https://github.com/lizichen/Machine-Learning-For-Computer-Vision/blob/master/tools-frameworks.md
