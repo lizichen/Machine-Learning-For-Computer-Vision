@@ -1,7 +1,7 @@
 ## Hand Recognition (March 2017)
 
 ### Video Files Link (Dropbox Public Link):
-    [goo.gl/0UMRzk][dropbox]
+[goo.gl/0UMRzk][dropbox]
 
 #### Mainstream video encode info:
 - Compression Standard: h264/MPEG-4 P.10
