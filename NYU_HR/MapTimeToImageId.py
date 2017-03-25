@@ -18,7 +18,7 @@ with open(CSV_TIME_LABELS_SRC, "rb") as csvfile:
 i = len(timestamp)
 timestamp.append(timestamp[i-1])
 
-target = open(IMAGENAME_LABELS_TARGET, 'a+')
+target = open(IMAGENAME_LABELS_TARGET, 'w+')
 write_count = 1 # close and reopen after 8000
 
 img_indexStart = 0
