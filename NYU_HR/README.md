@@ -1,14 +1,23 @@
-## Hand Recognition
+## Hand Recognition (March 2017)
 
 ### Video Files Link (Dropbox Public Link):
-    goo.gl/0UMRzk
+    [goo.gl/0UMRzk][dropbox]
+
+#### Mainstream video encode info:
+- Compression Standard: h264/MPEG-4 P.10
+- Color Space: YUV420P
+- Video Frame Rate: 15 FPS
+
+#### Images Retrieval Frequency: 
+12Hz (720 Frames per minute)
+
 
 ### To Retrieve Sequence of Images from the Video:
 ```sh
-    ffmpeg -i NYU/HR/Video_Dim/ch01_20170317124730.mp4 -r 12 ch01_%06d.png  
+ffmpeg -i NYU/HR/Video_Dim/ch01_20170317124730.mp4 -r 12 ch01_%06d.png  
 ```
 option **-r** follows the frequency. 12 means 12 FPS.   
-This script will retrieve 8682 PNGs.
+This script will retrieve 8682 PNGs from the video NYU/HR/Video_Dim/ch01_20170317124730.mp4
 
 ### Labels File (in 12 FPS)
 Given a csv file **TimeAndLabels_Light_ch01.csv** that marks the timestamp for the beginning of each *'Label'(Hand Gesture)*, and use **MapTimeToImageId.py** to generate another csv file **Light_Ch01_Labels.csv** that has the pairs of {ImageFileName and LabelName}, which can be leveraged when training and testing.
@@ -28,4 +37,4 @@ There will be some inaccuracy in the labeling when FPS is higher.
 3. Dim_Ch01_Labels.csv  
 4. Dim_Ch02_Labels.csv
 
-
+[dropbox]:https://goo.gl/0UMRzk
