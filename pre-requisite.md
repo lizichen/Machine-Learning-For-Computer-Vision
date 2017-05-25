@@ -28,7 +28,15 @@
 
 ### Outstanding Knowledge Base:
 #### Part I:
-- What's Machine Learning: Given training data set, discover underlying pattern so as to apply the pattern to new data. ML includes: Supervised Learning, Unsupervised Learning, etc.
+- What's **Machine Learning** in brief: Given training data set, discover underlying pattern so as to apply the pattern to new data. ML includes: Supervised Learning, Unsupervised Learning, etc.
+- | Machine Learning      | Statistics                     |
+|-----------------------|--------------------------------|
+| Supervised Learning   | Regression, Classification     |
+| Unsupervised Learning | Density Estimation, Clustering |
+| Generalization        | Test set performance           |
+| Learning              | Fitting                        |
+| Weights               | Parameters                     |
+| Network, Graphs       | Model                          |
 - **Supervised Learning**: Training input data is labeled. (Supervised Learning includes **Classification** and **Regression**).
   + Classification（分类）: Learn a decision boundary.
     * Logistic Regression | Perceptron-like Algorithm | AdaBoost | SVMs (Linear Kernel for large data, RBF for small data) | Random Forests 
@@ -120,7 +128,8 @@
   + in more general term, if we have a labeled data set {x_i}, and we need to classify some new item called y, find the k elements in {x_i} data set that are closest to y, and then find the approach to average their labels to get the label of y.
     * What is the distance, or how to define being closest? how to measure the distance between x and y?
     * How to calculate the average of all the labels of the k x items?
-  + Using KNN for MNIST: http://andrew.gibiansky.com/blog/machine-learning/k-nearest-neighbors-simplest-machine-learning/       
+  + Using KNN for MNIST: http://andrew.gibiansky.com/blog/machine-learning/k-nearest-neighbors-simplest-machine-learning/
+  +        
     <table>
       <tr><td colspan="2"><b>Difference between K-Means and KNN</b></td></tr>
       <tr><td><b>KNN</b></td><td><b>K-Means</b></td></tr>
@@ -189,6 +198,17 @@
 - 十、大数据数据处理资源 http://usefulstuff.io/big-data/
 - 十一、里面蕴含编程语言、机器算法、大数据等，内容巨丰富 https://www.analyticsvidhya.com/blog/2017/02/top-28-cheat-sheets-for-machine-learning-data-science-probability-sql-big-data/
 - 十三、学习数据挖掘、机器学习的好网站，写的很全面很系统，适合各个级别的高手 https://www.autonlab.org/tutorials
+
+[//]: # (#################################### SECTION SEPERATOR ############################################)
+### Knowledge Graphs:
+![Alt text](./Resource/ai-full-dev-cycle.jpeg?raw=true "ai-full-dev-cycle")
+![Alt text](./Resource/machine-learning.png?raw=true "machine-learning")
+![Alt text](./Resource/python-ecosystem.png?raw=true "python-ecosystem.png")
+![Alt text](./Resource/ML_Algorithms.jpg?raw=true "ML_Algorithms.jpg")
+![Alt text](./Resource/MLKnowledgeGraph.png?raw=true "MLKnowledgeGraph.png")
+![Alt text](./Resource/MI-Landscape-3_7.png?raw=true "MI-Landscape-3_7.png")
+
+
 
 [//]: # (#################################### SECTION SEPERATOR ############################################)
 
