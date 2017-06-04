@@ -36,17 +36,55 @@ N/A
 - Real-Time Continuous Pose Recovery of Human Hands Using Convolutional Networks [[NYU Hand Pose Dataset]][NYU-Hand]
 
 ### Week - 8
-- Hand Photo Data Collection
+- [Hand Video and Images Collection][nyu_hr]
+- Additional Articles:
+    + SSD: Single Shot MultiBox Detector [[Arxiv]][ssd]
+    + R-CNN: Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation [[PDF]][rcnn]
+    + YOLO:
+        * You Only Look Once: Unified, Real-Time Object Detection [[Arxiv]][yolopaper]
+        * [Another YOLO Paper][yolopaper2]
+        * [Comparison][yolocomparison]
 
 ### Week - 9
 - Generative Adversarial Nets (GAN) https://arxiv.org/pdf/1406.2661v1.pdf 
 - Deep Generative Image Models using a Laplacian Pyramid of Adversarial Networks. Emily L. Denton et. al. Nips 2015. https://arxiv.org/abs/1506.05751 
+- GANs with Feature Extraction Function:
+    + ALI
+    + BiGAN
+    + Adversarial Autoencoder
+    + Adversarial Variational Bayes.
 
 ### Week - 10 [Variational Auto Encoders]
 - Tutorial on Variational Autoencoders(VAEs), Carl Doersch. August, 2016. https://arxiv.org/abs/1606.05908
     + Relevance: sampling from distributions inside deep networks, and can be trained with stochastic gradient descent. VAEs have already shown promise in generating many kinds of complicated data, including handwritten digits, faces, house numbers, CIFAR images, physical models of scenes, segmentation, and predicting the future from static images.
 - "Variational Convolutional Networks for Human-Centric Annotations," 13th Asian Conference on Computer Vision, 2016. Tsung-Wei Ke, Che-Wei Lin, Tyng-Luh Liu and Davi Geiger, 
     + Relevance: Use of VAEs to annotate automatically images.
+
+### Week - 11 + 12
+
+### Week - 13 [Reinforcement Learning and Markov Decision Process]
+
+### Week - 14 [Recurrent Neural Network]
+
+### Week - 15 [Review Reinforcement Learning and Self-Driving Car]  
+
+
+
+### Additional Topic - [Object Detection]
+- RCNN: Region-based Convolutional Neural Networks
+- Fast and Faster R-CNN: https://github.com/rbgirshick/py-faster-rcnn 
+- YOLO
+- SSD
+- Soft-NMS: https://github.com/bharatsingh430/soft-nms
+
+### Research Topics:
+- Synthetic Gradients [[arxiv]][synthetic_gradients]
+- One Shot Learning [[Wiki]][one_shot_learning] 
+- Improving optimization in GAN
+
+### Additional Resource: [Edit Before Submit:]
+机器学习自学者必读的20篇顶级论文导读: https://mp.weixin.qq.com/s/ghMj3OO2yu7IIkQEkvkdVA
+常见面试机器学习方法总览: http://www.chinakdd.com/article-oyU85v018dQL0Iu.html
 
 
 [pre]:https://github.com/lizichen/Machine-Learning-For-Computer-Vision/blob/master/pre-requisite.md
@@ -68,4 +106,17 @@ N/A
 [NYU-Hand]: http://cims.nyu.edu/~tompson/NYU_Hand_Pose_Dataset.htm
 [synergface]: http://rita.osadchy.net/papers/OsadchyLeCunJMLR.pdf
 [viola]: http://www.merl.com/publications/docs/TR2004-043.pdf
+
+[nyu_hr]:https://github.com/lizichen/Machine-Learning-For-Computer-Vision/tree/master/NYU_HR 
+[ssd]:https://arxiv.org/abs/1512.02325
+[rcnn]:https://arxiv.org/pdf/1311.2524.pdf
+[yolopaper]:https://arxiv.org/abs/1506.02640
+[yolopaper2]:https://pjreddie.com/media/files/papers/YOLO9000.pdf
+[yolocomparison]:https://pjreddie.com/darknet/yolo/ 
+
+
+
+[one_shot_learning]: https://en.wikipedia.org/wiki/One-shot_learning
+[synthetic_gradients]: https://arxiv.org/abs/1703.00522
+
 

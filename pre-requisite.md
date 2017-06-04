@@ -77,7 +77,12 @@
   + If the size of training samples is large, using GD is not effective because in every iteration when updating the parameters, you are running through the complete training set. On the other hand, using SGD will be faster because you only use one training sample and it starts improving itself right away from the first sample. 
   + **SGD** often converges much **faster** compared to GD, but the error function is not as well minimized as in the case of GD. Often in most cases, the close approximation that you get in SGD for the parameter values are enough because they reach the optimal values and keep oscillating there.
 - ADAM (**Ada**ptive **M**oment Estimation) optimizer: Computes adaptive learning rates for each parameter. 
-- **ReLU**
+- **ReLU** f(x) = max(0, x)
+  + Greatly accelerate the convergence of stochastic gradient descent (compared to sigmoid/tanh functions).
+    * Sigmoid函数的backpropagation很容易出现梯度消失(SGD die out)，在Sigmoid接近饱和区，变化太缓慢，导数趋近于0，导致信息丢失。
+  + Non-saturating form.
+  + ReLU is fragile and can 'die' - to fix this: **Leaky ReLU** & **batch normalization**. 
+- Maxout
 - Softmax
 - Logistic Classifier
   + Logistic function: logistic(x) =  1 / (1 + numpy.exp(-x))
@@ -168,6 +173,7 @@
 
 ### OTHER TUTORIALS AND REFERENCES:
 - Carlos Fernandez-Granda's lecture notes provide a comprehensive review of the prerequisite material in linear algebra, probability, statistics, and optimization.
+- **Step-by-Step Backpropagation:** https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/
 - Brian Dalessandro's iPython notebooks from DS-GA-1001: Intro to Data Science
 - The Matrix Cookbook has lots of facts and identities about matrices and certain probability distributions.
 - Stanford CS229: "Review of Probability Theory"
