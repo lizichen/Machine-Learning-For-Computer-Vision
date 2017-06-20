@@ -34,12 +34,29 @@
 
 ### PyTorch
 
+
+### Starting Ubuntu (16.02/04 LTS as of Jun 2016)
+- Install Vim: ```sudo apt install vim```
+- Install Git: ```sudo apt install git```
+
 ### Anaconda
-- Install  
-- Package Management
+- Install (for python 3.6, as of Jun 2017) 
+  + Open Terminal: ```arch``` to verify if the system is 32-bit or 64-bit.
+  + Download Anaconda accordingly: http://continuum.io/downloads.html
+  + Open Terminal: ```bash ~/Downloads/Anaconda3-4.4.0-Linux-x86_64.sh``` to install
+  + The installer will prompts: ```Do you wish the installer to prepend the Anaconda<2 or 3> install location to PATH in your /home/<user>/.bashrc ?``` Always choose 'YES'. Otherwise, specify the path to Anaconda when using it: Edit file ```.bashrc``` and add ```~/anaconda2/bin``` or ```~/anaconda3/bin``` to the system PATH. i.e., ```export PATH="/home/<user>/anaconda<2 or 3>/bin:$PATH"``` then source the ```.bashrc``` file by typing ```source ~/.bashrc```
+- Create and Specify Environment:
+  + To view the current virtual environment
+  + To create a virtual machine: ```conda create -n tensorflow```
+- Install Packages:
+  + Numpy
+  + Pandas
+  + tensorflow
+  + tempfile (optional)
+  + urllib
 
 ### Tensorflow
-- Install
+- Install (ubuntu) https://www.tensorflow.org/install/install_linux 
 
 ### Caffe
 
