@@ -1,2 +1,5 @@
 # PDFs
-*.pdf
+*.mp4
+*.mov
+*/.ipynb_checkpoints/*
+darknet
